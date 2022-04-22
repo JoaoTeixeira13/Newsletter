@@ -1,0 +1,77 @@
+html,
+body {
+    height: 100%;
+    color: #4D4C7D;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #E9D5DA;
+}
+
+.mb-4 {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 30px;
+
+}
+
+.newsletter {
+    padding-bottom: 1.5rem;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 25%);
+}
+
+.top {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.middle {
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+
+.bottom {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.btn {
+    background-color: #4D4C7D;
+    border-color: #2e2d54;
+    margin: 30px;
+}
+
+.btn:hover {
+    background-color: #2e2d54;
+}
+
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
